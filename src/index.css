@@ -734,6 +734,10 @@ footer span {
   max-height: 300px;
 }
 
+.album .lyrics {
+  max-width: 100%;
+}
+
 @media (max-width: 600px) {
   .home .hero .container {
     width: 100%;
