@@ -8,6 +8,7 @@ const Search = () => {
     const searchSong = () => {
         if(searchWord.length === 0){
             alert('please enter a song name to search for')
+            return;
         }
         setSearchQuery(searchWord);
         setRedirect(true);
