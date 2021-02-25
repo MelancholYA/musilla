@@ -729,6 +729,11 @@ footer span {
   font-size: 11px;
 }
 
+.song .artist .singer {
+  max-width: 300px;
+  max-height: 300px;
+}
+
 @media (max-width: 600px) {
   .home .hero .container {
     width: 100%;
